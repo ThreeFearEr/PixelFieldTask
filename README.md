@@ -1,11 +1,11 @@
-****2D platformer****
+# 2D platformer
 - Move using "A"/"D" and jump using "space"
 - There are 3 levels and menu for level selection
 - Player has to collect all the stars to complete level and move to another.
 - Collected stars add to your score in the top right corner
 - There is also reseet and exit button in the top left corner
 
-**Approach**
+## Approach
 
 *Player*
 - Player has 2 hitboxes, first for collisions and second for ground check as trigger
