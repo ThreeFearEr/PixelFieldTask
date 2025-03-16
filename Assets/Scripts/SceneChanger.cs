@@ -13,6 +13,9 @@ public class SceneChanger : MonoBehaviour {
     public void LoadScene(string sceneName) {
         SceneManager.LoadScene(sceneName);
     }
+    /// <summary>
+    /// Usedd for cycling levels when the level is done
+    /// </summary>
     public void NextLevel() {
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         if(nextSceneIndex < SceneManager.sceneCountInBuildSettings) {

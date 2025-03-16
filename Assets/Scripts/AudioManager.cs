@@ -13,6 +13,7 @@ public class AudioManager : MonoBehaviour {
         if(Instance == null) Instance = this;
         audioSource = GetComponent<AudioSource>();
 
+        //Loads all audioclips from /resources
         foreach(AudioClip soundEffect in Resources.LoadAll<AudioClip>("Audio/")) {
             soundEffects.Add(soundEffect.name, soundEffect);
             audioSource.clip = soundEffect;
