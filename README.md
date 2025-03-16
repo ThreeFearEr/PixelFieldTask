@@ -16,7 +16,7 @@
 - Collectible stars have trigger collider that when activated by player adds score and destroys the star
  - Since player has 2 colliders there was a bug that coused star to add score twice, this was mitigated by disabling collider and cheking if the collider is enabled when the addition kof score should happen
 
-*Managers*
+### Managers
 - Managers like "ScoreManager", "AudioManager" and "SceneChanger" use singleton approach for easier access to these scripts.
  - "ScoreManager" uses UnityEvent for updating score, which updates UI.
  - "AudioManager" loads all audioclips from /Assets/Resources/ and stores them in dictionary with their file names as keys
@@ -24,8 +24,8 @@
   - Since "SceneManager" class already exists in "UnityEngine.SceneManagement", i had to use different name for this manager.
   - When the player collects all the stars "SceneChanger" loads next level or menu if there is none.
 
-*Animations*
+### Animations
 - Animations are all made using unity animators keyframes for moving, rescaling and rotating sprites Transforms.
 
-*Menu*
+### Menu
 - Menu is made as level selector with 3 simple levels.
