@@ -1,4 +1,4 @@
-***2D platformer***
+****2D platformer****
 - Move using "A"/"D" and jump using "space"
 - There are 3 levels and menu for level selection
 - Player has to collect all the stars to complete level and move to another.
