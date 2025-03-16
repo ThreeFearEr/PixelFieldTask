@@ -14,7 +14,7 @@
 ### Environment
 - Platforms have only sprite and simple collider for player movement
 - Collectible stars have trigger collider that when activated by player adds score and destroys the star
- - Since player has 2 colliders there was a bug that coused star to add score twice, this was mitigated by disabling collider and cheking if the collider is enabled when the addition kof score should happen
+-- Since player has 2 colliders there was a bug that coused star to add score twice, this was mitigated by disabling collider and cheking if the collider is enabled when the addition kof score should happen
 
 ### Managers
 - Managers like "ScoreManager", "AudioManager" and "SceneChanger" use singleton approach for easier access to these scripts.
